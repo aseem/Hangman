@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90B67D90179E0E6F0003C762 /* words.plist in Resources */ = {isa = PBXBuildFile; fileRef = 90B67D8F179E0E6F0003C762 /* words.plist */; };
+		90B67D92179F64420003C762 /* small.plist in Resources */ = {isa = PBXBuildFile; fileRef = 90B67D91179F64410003C762 /* small.plist */; };
 		90BFA46E179AF6EA00401F2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90BFA46D179AF6EA00401F2F /* UIKit.framework */; };
 		90BFA470179AF6EA00401F2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90BFA46F179AF6EA00401F2F /* Foundation.framework */; };
 		90BFA472179AF6EA00401F2F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90BFA471179AF6EA00401F2F /* CoreGraphics.framework */; };
@@ -20,9 +22,12 @@
 		90BFA48A179AF6EA00401F2F /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90BFA489179AF6EA00401F2F /* FlipsideViewController.m */; };
 		90BFA48D179AF6EA00401F2F /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90BFA48B179AF6EA00401F2F /* MainViewController.xib */; };
 		90BFA490179AF6EA00401F2F /* FlipsideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90BFA48E179AF6EA00401F2F /* FlipsideViewController.xib */; };
+		90BFA498179B175200401F2F /* EvilHangmanGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 90BFA497179B175200401F2F /* EvilHangmanGame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		90B67D8F179E0E6F0003C762 /* words.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = words.plist; sourceTree = "<group>"; };
+		90B67D91179F64410003C762 /* small.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = small.plist; sourceTree = "<group>"; };
 		90BFA46A179AF6EA00401F2F /* Hangman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hangman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90BFA46D179AF6EA00401F2F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		90BFA46F179AF6EA00401F2F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -42,6 +47,8 @@
 		90BFA489179AF6EA00401F2F /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
 		90BFA48C179AF6EA00401F2F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainViewController.xib; sourceTree = "<group>"; };
 		90BFA48F179AF6EA00401F2F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FlipsideViewController.xib; sourceTree = "<group>"; };
+		90BFA496179B175200401F2F /* EvilHangmanGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvilHangmanGame.h; sourceTree = "<group>"; };
+		90BFA497179B175200401F2F /* EvilHangmanGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvilHangmanGame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +95,8 @@
 		90BFA473179AF6EA00401F2F /* Hangman */ = {
 			isa = PBXGroup;
 			children = (
+				90BFA496179B175200401F2F /* EvilHangmanGame.h */,
+				90BFA497179B175200401F2F /* EvilHangmanGame.m */,
 				90BFA47C179AF6EA00401F2F /* AppDelegate.h */,
 				90BFA47D179AF6EA00401F2F /* AppDelegate.m */,
 				90BFA485179AF6EA00401F2F /* MainViewController.h */,
@@ -104,6 +113,8 @@
 		90BFA474179AF6EA00401F2F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				90B67D91179F64410003C762 /* small.plist */,
+				90B67D8F179E0E6F0003C762 /* words.plist */,
 				90BFA475179AF6EA00401F2F /* Hangman-Info.plist */,
 				90BFA476179AF6EA00401F2F /* InfoPlist.strings */,
 				90BFA479179AF6EA00401F2F /* main.m */,
@@ -172,6 +183,8 @@
 				90BFA484179AF6EA00401F2F /* Default-568h@2x.png in Resources */,
 				90BFA48D179AF6EA00401F2F /* MainViewController.xib in Resources */,
 				90BFA490179AF6EA00401F2F /* FlipsideViewController.xib in Resources */,
+				90B67D90179E0E6F0003C762 /* words.plist in Resources */,
+				90B67D92179F64420003C762 /* small.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +199,7 @@
 				90BFA47E179AF6EA00401F2F /* AppDelegate.m in Sources */,
 				90BFA487179AF6EA00401F2F /* MainViewController.m in Sources */,
 				90BFA48A179AF6EA00401F2F /* FlipsideViewController.m in Sources */,
+				90BFA498179B175200401F2F /* EvilHangmanGame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +330,7 @@
 				90BFA495179AF6EA00401F2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
